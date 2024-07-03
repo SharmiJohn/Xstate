@@ -123,16 +123,10 @@ function App() {
       </form>
       <div style={{ fontFamily: "Poppins" }}>
   {selectCountry !== "" && selectState !== "" && selectCity !== "" && (
-    <h3>
-      You Selected{" "}
-      <span style={{ fontSize: "30px", fontFamily: "Poppins" }}>
-        {selectCity}
-      </span>
-      , 
-      <span style={{ color: "rgb(128, 128, 128)" }}>
-        &nbsp;{selectState},&nbsp;{selectCountry}
-      </span>
-    </h3>
+    <p>
+      You Selected {selectCity}, {selectState},{selectCountry}
+     
+    </p>
   )}
 </div>
 
