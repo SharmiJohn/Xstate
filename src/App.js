@@ -130,7 +130,7 @@ function App() {
             </span>
             , 
             <span style={{ color: "	rgb(128, 128, 128)" }}>
-            {" "}{selectState},{" "}{selectCountry}
+            {"  "}{selectState},{"  "}{selectCountry}
             </span>
           </h3>
         )}
