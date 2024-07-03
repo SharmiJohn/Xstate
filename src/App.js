@@ -121,14 +121,14 @@ function App() {
           ))}
         </select>
       </form>
-      <div style={{ fontFamily: "Poppins" }}>
+     
   {selectCountry !== "" && selectState !== "" && selectCity !== "" && (
     <p>
-      You Selected {selectCity}, {selectState}, {selectCountry}
+      You Selected {selectCity},  {selectState},  {selectCountry}
      
     </p>
   )}
-</div>
+
 
     </div>
   );
