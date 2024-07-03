@@ -124,7 +124,7 @@ function App() {
      
   {selectCountry !== "" && selectState !== "" && selectCity !== "" && (
     <p>
-      You Selected {selectCity},  {selectState},  {selectCountry}
+      You selected {selectCity},  {selectState},  {selectCountry}
      
     </p>
   )}
